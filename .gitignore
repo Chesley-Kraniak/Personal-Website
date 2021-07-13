@@ -21,3 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+**/*.odt
+**/*.odt#
+**/*.pdf
+!/src/Resume_RevD_Web.pdf
+**/*.log
+**/*.code-workspace
+**/*.ods
+**/*.ods#
+src/self.jpg
+src/self_1200.jpg
+src/self_600.jpg
+**/*.xcf

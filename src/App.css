@@ -36,3 +36,87 @@
     transform: rotate(360deg);
   }
 }
+
+.Resume {
+  font-family: Calibri, 'Arial Narrow Bold', sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2vw;
+  padding-bottom: 12px;
+}
+
+.Header {
+  margin-top: 12px;
+  margin-left: 1.5vw;
+  display: flex;
+}
+
+.Self-info {
+  min-width: 120px;
+  text-align: center;
+  font-size: 24px;
+  vertical-align: middle;
+  padding-right: 12px;
+  padding-left: 3vw;
+  padding-top: 6vh;
+}
+
+.Self-pic {
+  max-width: 300px;
+  max-height: 200px;
+  position: relative;
+  z-index: -1;
+  border-radius: 35%;
+}
+
+.Self-pic-container {
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: 32%;
+  display: inline-block;
+  box-shadow: 0 0 12px 20px lightslategray inset;  
+}
+
+.Resume-body {
+  border-radius: 24px;
+  margin-left: 3vw;
+  margin-top: 2vh;
+  padding-left: 18px;
+  padding-top: 1px;
+  padding-bottom: 4px;
+  padding-right: 16px;
+  text-align: justify;
+  text-indent: 24px;
+  min-width: 360px;
+  background-color: lemonchiffon;
+}
+
+.Menu {
+  border-radius: 14px;
+}
+
+hr {
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+a:link {
+  color: lightslategray;
+}
+
+a:visited {
+  color: rebeccapurple;
+}
+
+@media screen and (min-width: 600px) {
+  .Resume {
+    max-width: 800px;
+    padding-left: 160px;
+  }
+
+  .Header {
+    justify-content: center;
+  }
+}
