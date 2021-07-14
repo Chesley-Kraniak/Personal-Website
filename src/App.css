@@ -103,11 +103,11 @@ hr {
 }
 
 a:link {
-  color: lightslategray;
+  color: darkslateblue;
 }
 
 a:visited {
-  color: rebeccapurple;
+  color: fuchsia;
 }
 
 @media screen and (min-width: 600px) {

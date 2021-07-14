@@ -66,12 +66,14 @@ function Resume() {
               <p>
                 I am moderately familiar with Boost, and have specifically used the signals2,
                 geometry, and serialization libraries for personal work. I use Catch2 for unit
-                testing, doxygen for code documentation, and CMake for the build system.
+                testing, doxygen for code documentation, and CMake for the build system. My
+                preferred editor is Qt's, but I am not married to it.
               </p>
               <p>
                 C by itself is a small enough language that it's possible to essentially know
                 the whole language without too much trouble. With my work on compiling C in&nbsp;
                 <a href="#emp-twilight">EMPTwilight</a>, I can demonstrate I know C99 deeply.
+                I used C for my <a href="#scale-spi-reader">perch-scale SPI reader</a>.
               </p>
               <p>
                 I have some familiarity with a few microcontrollers (PIC10, STM8) and have used
@@ -109,7 +111,10 @@ function Resume() {
           </ul>
         <h3>Technologies</h3>
           <p>
-            [Discuss Agile, Git, Azure]
+            I have used Git extensively, both in my professional work and at home (see 
+            also: <a target="_blank" rel="noopener noreferrer" href="https://github.com/Chesley-Kraniak">my GitHub</a>).
+            I have used a few ticket-tracking systems, including Jira, Azure's system, and
+            old-fashioned Post-Its. For dev-ops, I am moderately familiar with Azure DevOps.
           </p>
           <p>
             I have an understanding of G-code, APT, and DMIS. These are all important languages
@@ -124,9 +129,25 @@ function Resume() {
             automating CATIA v6 / 3DEXPERIENCE. My focus was in COM automation, but I am also
             capable of both EKL and CAA automation.
           </p>
+          <p>
+            For web technologies, I am somewhat familiar with React and Javascript (see also:
+            the present website). I used Firebase for this website, and have previously used
+            a VPS (which is still active) and a box at home (a long time ago) for hosting.
+          </p>
         <h3>Skills</h3>
           <p>
-            [Discuss mentorship]
+            I was exposed to an Agile environment at Bell. Our small group adopted agile methods
+            after working on our project for some time, so I have experience setting up the process,
+            working with several backlog systems (Azure's, JIRA, and Post-Its) due to experimentation,
+            bi-weekly sprint reviews, retrospectives, and planning meetings, and daily stand-ups.
+          </p>
+          <p>
+            I have served as a programming mentor to coworkers, helping them learn things ranging
+            from the basics of programming (how and why to use functions, avoid globals, etc.) to
+            how to use Git, to how to give programming something a solid try and iterate until 
+            satisfied. I've taught two coworkers how to program an A* algorithm, and interestingly
+            enough I haven't ever actually written A* myself. (Their A*s worked just
+            fine.)
           </p>
           <p>
             I understand GD&amp;T well. I received Bell's internal GD&amp;T training,
@@ -134,7 +155,14 @@ function Resume() {
             around GD&amp;T for my whole career.
           </p>
         <h3>Personal Projects</h3>
+          <p>
+            A lot of my work has been in a proprietary setting, so a lot of my code isn't
+            mine to show. I do, however, have some projects I've worked on in my personal time.
+          </p>
           <h4 id="emp-twilight">EMPTwilight</h4>
+            <p>
+              <i>GitHub repository link coming soon.</i>
+            </p>
             <p>
               I spent a lot of time on a personal project for compiling C using Perl 6.
               The project left me with a ridiculously deep knowledge of the C language,
@@ -145,6 +173,9 @@ function Resume() {
               to be useful.
             </p>
           <h4>Descriptor Or Value Either (DOVE)</h4>
+            <p>
+              <i>GitHub repository link coming soon.</i>
+            </p>
             <p>
               I dislike both return codes and exceptions as error-handling mechanisms.
               In the last few years, functional-style approaches have grown on me, as I
@@ -158,7 +189,14 @@ function Resume() {
               A significant effect of this is to move information about exceptions into a function's
               signature, which helps it to be self-documenting.
             </p>
-          <h4>Block Perch with Integrated Scale</h4>
+            {/* <p>
+              An extremely similar C# project that I like and introduced at Bell is the [TODO:
+              which was this? get link]
+            </p> */}
+          <h4 id="scale-spi-reader">Block Perch with Integrated Scale</h4>
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Chesley-Kraniak/spi_scale_reader">[Click here for the GitHub repository]</a>
+            </p>
             <p>
               For a time, I worked on a project involving building an always-on scale into
               a bird perch. Its main purpose would be to better track a falconry bird's state
@@ -167,9 +205,9 @@ function Resume() {
             </p>
             <p>
               The electronics consisted of a load cell, an in-amp, an ADC, and a Raspberry Pi 4.
-              I developed a little C program for reading the load cell: [insert link]. This was
-              run on a breadboard, and I was able to collect some data; a graph is included in
-              the linked repository.
+              I developed a little C program for reading the load cell (see the linked GitHub 
+              repository). This was run on a breadboard, and I was able to collect some data;
+              some real data and a graph of that data is included in the repository.
             </p>
           <h4>Geometric Constraint Solver</h4>
             <p>
@@ -188,8 +226,9 @@ function Resume() {
             <p>
               While this library works and demonstrates skills such as C++, unit
               testing, and integration with optimlib, it has enough value
-              that I don't want to open-source it. If you are interested, I can show 
-              this solver to you directly from my machine so you can verify its existence.
+              that I don't want to make its source available. If you are interested,
+              I can show this solver to you directly from my machine so you can verify
+              its existence.
             </p>
           <h3>Education</h3>
             <p>
