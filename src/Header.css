@@ -1,0 +1,44 @@
+.Header {
+    margin-top: 12px;
+    margin-left: 1.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.Self-info {
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+    padding-right: 12px;
+    padding-left: 3vw;
+    padding-top: 6vh;
+}
+
+.Self-pic {
+    max-width: 150px;
+    max-height: 100px;
+    position: relative;
+    z-index: -1;
+    border-radius: 35%;
+}
+
+.Self-pic-container {
+    max-width: 150px;
+    max-height: 100px;
+    border-radius: 32%;
+    display: inline-block;
+    box-shadow: 0 0 7px 12px lightslategray inset;  
+}
+
+@media screen and (min-width: 600px) {
+    .Self-pic {
+        max-width: 200px;
+        max-height: 165px;
+    }
+    
+    .Self-pic-container {
+        max-width: 200px;
+        max-height: 165px;
+        box-shadow: 0 0 12px 20px lightslategray inset;  
+    }
+}

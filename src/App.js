@@ -1,5 +1,5 @@
-import self_pic   from './self_300.jpg';
 import resume_pdf from './Resume_RevD_Web.pdf';
+import Header from './Header';
 import './App.css';
 
 function App() {
@@ -9,19 +9,10 @@ function App() {
 function Resume() {
   return (
     <div className="Resume">
-      <div className="Header">
-        <div className="Self-info">
-          <p>
-            Chesley Kraniak
-          </p>
-        </div>
-        <div className="Self-pic-container">
-          <img src={self_pic} alt="Chesley Kraniak" className="Self-pic"/>
-        </div>
-      </div>
+      <Header />
       <div className="Resume-body">
         <p>
-          <a href={resume_pdf}>Get the PDF of my résumé here</a>.
+          <a target="_blank" rel="noopener noreferrer" href={resume_pdf}>Get the PDF of my résumé here</a>.
         </p>
         <hr/>
         <h3>About</h3>
