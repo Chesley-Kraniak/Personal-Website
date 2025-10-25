@@ -7,12 +7,40 @@ function App() {
 }
 
 function Resume() {
+  let data = require("./resume_data.json");
+
   return (
     <div className="Resume">
       <Header />
       <div className="Resume-body">
+        <h3>Contents</h3>
+        <ul>
+          <li>About</li>
+          <li>Programming Languages</li>
+          <ul>
+            <li>VB / C# / .Net</li>
+            <li>C / C++</li>
+            <li>Python</li>
+            <li>Perl 6</li>
+          </ul>
+          <li>Technologies</li>
+          <li>Skills</li>
+          <li>Personal Projects</li>
+          <ul>
+            <li>EMPTwilight</li>
+            <li>Descriptor Or Value Either (DOVE)</li>
+            <li>Block Perch with Integrated Scale</li>
+            <li>Geometric Constraint Solver</li>
+          </ul>
+          <li>Education</li>
+        </ul>
+        <hr/>
         <p>
           <a target="_blank" rel="noopener noreferrer" href={resume_pdf}>Get the PDF of my résumé here</a>.
+        </p>
+        <hr/>
+        <p>
+          <i>Last updated: 2021</i>
         </p>
         <hr/>
         <h3>About</h3>
@@ -152,9 +180,6 @@ function Resume() {
           </p>
           <h4 id="emp-twilight">EMPTwilight</h4>
             <p>
-              <i>GitHub repository link coming soon.</i>
-            </p>
-            <p>
               I spent a lot of time on a personal project for compiling C using Perl 6.
               The project left me with a ridiculously deep knowledge of the C language,
               compiler frontends, and a sense of confidence in my ability to write a compiler
@@ -164,9 +189,6 @@ function Resume() {
               to be useful.
             </p>
           <h4>Descriptor Or Value Either (DOVE)</h4>
-            <p>
-              <i>GitHub repository link coming soon.</i>
-            </p>
             <p>
               I dislike both return codes and exceptions as error-handling mechanisms.
               In the last few years, functional-style approaches have grown on me, as I

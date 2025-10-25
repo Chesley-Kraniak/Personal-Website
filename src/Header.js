@@ -1,4 +1,4 @@
-import self_pic  from './self_300.jpg';
+import self_pic  from './self_3_300_225_2.png';
 import './Header.css';
 
 function Header() {
